@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <img src="images/logo.jpg" height="81px" width="200px">
+        <nav class="search">SEARCH <input type="text" type="search" name="search" placeholder="Search for the product">
+            <a href="#" type="submit" class="searchbutton"><img src="images/search icon.jpg" height="30px" width="35px" class="searchicon"></a>
+        </nav>
+    </div>
+
+    <div class="subheading">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <nav class="menu">MENU</nav>
+        <div class="optionlist">
+
+            <a href="#">Mobiles</a>
+            <a href="#">Fashion</a>
+            <a href="#">Electronics</a>
+            <a href="#">Books</a>
+        </div>
+        <a class="button" href="#popup1">Login</a>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+
+            <div class="content">
+                <div class="skyblue-box">
+                    
+                    <div class="purple-box">
+                        <a class="close" href="#">&times;</a>
+                        <img src="images/logo.jpg">
+                        <div class="login-form">                           
+                            <form action="#">                               
+                                <b>Email</b> <br>
+                                <input type="email" placeholder="Email"> <br>
+                                <b>PASSWORD</b> <br>
+                                <input type="password" placeholder="password"> <br>
+                                <button type="checkbox"></button><b class="remember-me">Remember Me</b>
+                            </form>
+                            <div class="submit">
+                                <button type="submit">SUBMIT</button>
+                            </div>
+                            <a href="#" class="forget">FORGOT PASSWORD</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <img src="images/sale image.jpg" height="500px" width="80%" class="salesimage">
+
+
+    <div class="container">
+        <div><button class="buy"><b>BUY</b></button></div>
+
+        
+<h1 style="color: red;position: absolute;margin-top: -50px;">*SELECT SIZE & CLICK ON OFFER PRICE </h1>       
+<b class="size">Size :</b> <select id="tv">
+            <option>-- select size --</option>
+            <option>32 inch</option>
+            <option>40 inch</option>
+            <option>55 inch</option>
+        </select>
+
+        <a href="#discount-rate" onclick="myFunction()" class="offer-price"><b>Offer Price</b></a> 
+        <b class="output-display">Price :</b>   <div id="discount-rate"></div> 
+
+                                 
+        
+
+        
+
+        <div for="budget" class="budget">                
+            <h1 style="color: red;margin-top: 80px;position: absolute;">*WRITE YOUR BUDGET & CLICK ON CHECK SIZE</h1>  
+            <b class="bdgt">Budget : 
+
+            </b><input type="number" id="rate" placeholder="Enter Your Budget">
+            <nav class="rs">&#8377; INR</nav>
+            <a href="#budget-tv" onclick="paisavasul()" class="check-size">Check Size</a>
+            <p id="budget-tv"></p>
+        </div>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
